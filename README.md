@@ -11,7 +11,7 @@
 - Create an empty database according to the name given in the .env
 - Run `composer install` to install required dependencies
 - Run `php artisan key:generate` to generate app key
-- Run `php artisan migrate --seed` to create database tables and seed data
+- Run `php artisan migrate:fresh --seed` to create database tables and seed data
 - Run `php artisan serve` to serve the app
 - Run `php artisan test` to run the tests
 
